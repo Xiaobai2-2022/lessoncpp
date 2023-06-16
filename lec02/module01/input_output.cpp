@@ -3,9 +3,13 @@ using namespace std;
 
 int main() {
 
-    cout << "Hello World" << endl;
+    string name;
+    int age;
 
-    cout << "Hello World\n";
+    cin >> name
+        >> age;
+
+    cout << "My name is " << name << ", I am " << age << " years old." << endl;
 
     return 0;
 
