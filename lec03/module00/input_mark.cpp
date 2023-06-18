@@ -14,7 +14,7 @@ int main() {
      *     Note that you must use the prompt and output given above.
      * 
      * Note that the formula for average of three number, a, b, c is:
-     *     (a + b + c) / 2
+     *     (a + b + c) / 3
      */
     // Your implementation starts here:
     
