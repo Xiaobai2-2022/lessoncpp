@@ -17,8 +17,16 @@ int main() {
      *     (a + b + c) / 3
      */
     // Your implementation starts here:
-    
+    double sub1, sub2, sub3;
+    double avg;
 
+    cout << prompt;
+    cin >> sub1 >> sub2 >> sub3;
+
+    avg = (sub1 + sub2 + sub3) / 3;
+
+    cout << output << avg << "." << endl;
+    
     return 0;
 
 }
