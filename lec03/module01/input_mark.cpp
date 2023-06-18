@@ -17,6 +17,13 @@ int main() {
     avg = (sub1 + sub2 + sub3) / 3;
 
     cout << output << avg << "." << endl;
+
+    if(avg >= 60) {
+        cout << pass << endl;
+    }
+    else {
+        cout << fail << endl;
+    }
     
     return 0;
 
